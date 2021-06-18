@@ -1,35 +1,20 @@
-## 鉴于目前仓库fork人数过多，为防止账号再次遭到封禁，创建了一个TG交流群
-## 有条（科学）件（上网）的可以加入TG交流群防止失联
-## TG交流群：https://t.me/jd_zero205
-## TG通知订阅频道：https://t.me/jd_zero205_tz
+### 京东618活动开始了，先手动做任务，坐等大佬更新脚本！(๑•̀ㅂ•́)و✧
+## 注意！原来使用zero205/JD仓库的用户可不用重新创建仓库，替换原脚本的代码即可同步本仓库
+* 1.打开自己的仓库，找到syncGit.yml文件打开(路径为：.github / workflows / syncGit.yml)，点击右上角铅笔图标  
+* 2.[点此打开](https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD/main/.github/workflows/syncGit.yml)复制全部代码替换原代码  
+* 3.点击右边绿色`Start commit`,点击`Commit changes`，手动运行一次此任务即可
 
-## 为防止仓库再次被封，本仓库仅保留腾讯云函数、elecV2P两种方式运行
-## 想继续使用AC运行的朋友请移步原仓库，没有大的更新随缘维护：https://github.com/zero205/JD  
+### 此仓库仅作为备份，方便继续使用AC运行的朋友，随缘更新
+### 长期维护地址：https://github.com/zero205/JD_tencent_scf
 
+## 使用教程（不要fork！觉得有用的可以点个star :blush:）
+* > ~~Github Action 运行~~ (响应lxk大佬要求，删除AC教程)
+* > 腾讯云函数部署【推荐】[点此查看](./backUp/tencentscf.md)
+* > [elecV2P](https://github.com/elecV2/elecV2P) 部署【备用】[点此查看](https://github.com/elecV2/elecV2P-dei/blob/master/docs/01-overview.md)   
 
-## 不要fork！！请先自行创建自己的仓库
-* 1.创建新仓库[点击创建自己的仓库](https://github.com/new)
-* 2.点击`Import a repository`，在`Your old repository’s clone URL`处填入https://github.com/zero205/JD_tencent_scf
-* 3.然后在`Repository name`处填写仓库名，最后点击最下方的`Begin import`即可
+### 自动同步脚本教程：[点此查看](https://github.com/zero205/JD/blob/main/backUp/reposync.md)  </br>
 
-# 使用教程（觉得有用的可以点个star :blush:）
-
-* > 腾讯云函数部署【推荐】。[点此查看教程](./backUp/tencentscf.md)
-
-* > [elecV2P](https://github.com/elecV2/elecV2P) 部署【备用】。
-    * 安装教程：[点此查看](https://github.com/elecV2/elecV2P-dei/blob/master/docs/01-overview.md)  
-    * elecV2P相关补充说明：[点此查看](./backUp/elecV2P.md)  
-
-
-## 自动同步脚本教程：[点此查看](https://github.com/zero205/JD_tencent_scf/blob/main/backUp/reposync.md)  </br>
-
-- 获取京东cookie教程可参考：
-  
-  + [浏览器获取京东cookie教程](./backUp/GetJdCookie.md)
-    
-  + [插件获取京东cookie教程](./backUp/GetJdCookie2.md)
-  
-## AC运行常见问题  
+## 常见问题  
 * 此处借用[RayWangQvQ](https://github.com/RayWangQvQ)大佬的教程  
 * [点击查看常见问题](https://github.com/RayWangQvQ/BiliBiliTool.Docs/blob/main/questions.md)  
 
@@ -142,9 +127,9 @@
 
 ## 食用方法
 
-### ~~1. Docker~~
+### 1. Docker
 
-- ~~[部署方法](./docker)~~
+- [部署方法](./docker)
 
 - [环境变量集合](./githubAction.md)
  
