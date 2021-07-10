@@ -6,7 +6,7 @@ name: 京东到家/定时领水
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/15 * * * *'
   watch:
         types: started
   repository_dispatch:
