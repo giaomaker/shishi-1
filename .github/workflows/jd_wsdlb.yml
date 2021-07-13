@@ -28,9 +28,9 @@ jobs:
       - name: '运行 【极速版我是大老板农场】'
         run: |
       
-          #node jd_wsdlb.js
+          #node jd_unsubscribe.js
           #sleep 10
-          node jd_try.js
+          node jd_wsdlb.js
           
           
         env:
