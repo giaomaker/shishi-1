@@ -6,7 +6,7 @@ name: 新品试用
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 17 * * *'
+    - cron: '0 0 10,14,18 * * ?'
   watch:
         types: started
   repository_dispatch:
