@@ -4,6 +4,12 @@
 name: 京东到家/定时领水
 
 on:
+      #dsafjljasdlf
+  push:
+      branches: [main]
+  pull_request:
+      branches: [main]
+      #dfkdad
   workflow_dispatch:
   schedule:
     - cron: '*/15 * * * *'
