@@ -26,7 +26,6 @@ jobs:
         run: |
           npm install
       - name: '运行 【京东到家/定时领水】'
-        timeout-minutes: 20
         run: |
       
           #node jd_unsubscribe.js
