@@ -12,7 +12,7 @@ on:
   repository_dispatch:
     types: unsubscribe
 jobs:
- # timeout-minutes: 50
+ # timeout-minutes: 10
   build:
 
     runs-on: ubuntu-latest
@@ -27,7 +27,7 @@ jobs:
         run: |
           npm install
       - name: '运行 【京东到家/定时领水】'
-        timeout-minutes: 50
+        timeout-minutes: 10
         run: |
       
           #node jd_unsubscribe.js
